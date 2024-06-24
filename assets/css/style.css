@@ -1,0 +1,80 @@
+@import url(./fonts.css);
+@import url(./spinner.css);
+
+.content{
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    min-width: 420px;
+    background-color: #000;
+    margin: 0 auto;
+    color: #fff;
+}    
+
+
+img{
+    width: 100%;
+}
+
+.titulo{
+    font-family: 'GreatVibes-Regular';
+    text-align: center;
+    font-size: 75px;
+    letter-spacing: 2px;
+}
+
+.box__titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.txt__invitado{
+    text-align: center;
+    font-family: 'Bombing';
+    font-size: 38px;
+    letter-spacing: 30px;
+    text-transform: uppercase;
+    border-bottom:1px solid  #fff;
+    font-weight: 900;
+}
+
+.txt__festejo {
+    text-align: center;
+    font-size: 33px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #fff;
+    font-weight: 900;
+}
+
+.txt__cumpleanos{
+    text-align: center;
+    font-size: 38px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #fff;
+    font-family: 'Starjout';
+}
+
+.mensaje{
+    
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.btn{
+    background-color: brown;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 36px;
+    margin: 20px auto;
+    cursor: pointer;
+    font-weight: bold;
+}
+
